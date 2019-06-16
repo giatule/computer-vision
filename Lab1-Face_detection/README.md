@@ -26,12 +26,16 @@ pip install face_recognition
 A Simple Example
 ```
 import face_recognition
-
-image = face_recognition.load_image_file("My_Image.png")
+#Gán đường dẫn hình cần xét
+Img_in_path="Lab1-Face_detection/Input/lab2.jpg"
+image = face_recognition.load_image_file(Img_in_path)
 face_locations = face_recognition.face_locations(image)
-print("I found {} face(s) in this photograph.".format(len(face_locations)))
+print("Tìm thấy {} khuôn mặt(s) trong ảnh.".format(len(face_locations)))
 ```
 
+Ket qua cho thaays
+
+![](https://github.com/giatule/computer-vision/blob/master/readme_img/simple_face_detect.png)
 
 
 ```
