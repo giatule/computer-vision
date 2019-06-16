@@ -93,7 +93,7 @@ for face_location in face_locations:
 ```
 
 # Kết quả thực nghiệm nhận diện khuôn mặt
-# Kết quả từ console: 
+# Kết quả terminal console: 
 ```
 I found 4 face(s) in this photograph.
 A face is located at pixel location Top: 582, Left: 951, Bottom: 689, Right: 1059
