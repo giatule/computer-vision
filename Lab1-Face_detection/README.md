@@ -23,8 +23,7 @@ ageitgey/face_recognition là một trong những thư viện đáp ứng chức
 
 ### Prerequisites
 
-Bài lab thực nghiệm với python 3.7 chạy với hệ điều hành Mac OS 10.14
-Vitual Studial Code (VScode)
+Bài lab thực nghiệm với python 3.7 chạy với hệ điều hành Mac OS 10.14 sử dụng editor Visual StudioCode (VScode)
 đã cài các thư viện: dlib, cmake, face_recognition
 
 Cú pháp cài đặt như sau: 
