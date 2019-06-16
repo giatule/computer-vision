@@ -1,6 +1,6 @@
 # đếm số lượng khuôn mặt xuất hiện trong hình
 import face_recognition
-Img_in_path="Input/lab2.jpg"
+Img_in_path="Lab1-Face_detection/Input/lab2.jpg"
 image = face_recognition.load_image_file(Img_in_path)
 face_locations = face_recognition.face_locations(image)
 print("I found {} face(s) in this photograph.".format(len(face_locations)))
