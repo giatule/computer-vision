@@ -4,8 +4,9 @@ Bài lab thực nghiệm về nhận diện khuông mặt trong Python
 
 ## Getting Started
 
-Face recognition là ứng dụng nhận diện khuông mặt tuyệt vời. Trên thực tế 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Face recognition là ứng dụng nhận diện khuông mặt tuyệt vời. Trên thực tế viết một ứng dụng nhận diện khuôn mặt từ một hình ảnh bất kỳ đã trở nên đơn giản với việc ứng dụng các thư viện có sẵn.
+ageitgey/face_recognition là một trong những thư viện đáp ứng chức tốt nhất vơi độ chính xác cao và đã đạt được hơn 24000 star trên github.
+
 
 ### Prerequisites
 
