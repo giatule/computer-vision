@@ -25,7 +25,7 @@ for face_location in face_locations:
     top, right, bottom, left = face_location
     print("A face is located at pixel location Top: {}, Left: {}, Bottom: {}, Right: {}".format(top, left, bottom, right))
 
-    # Bạn có thể truy cập vào khuôn mặt thực tế như thế này:
+    # Cách thức truy cập vào từng khuôn mặt:
     face_image = image[top:bottom, left:right]
     pil_image = Image.fromarray(face_image)
     pil_image.show()
