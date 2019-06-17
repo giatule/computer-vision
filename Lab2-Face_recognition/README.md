@@ -1,13 +1,11 @@
 # Môn học: Chuyên đề nghiên cứu về Thị giác máy tính (CS2309)
 
-Giảng viên: TS. Lê Đình Duy
+### Giảng viên: TS. Lê Đình Duy
 
-Học viên: Lê Gia Tự
+### Học viên: Lê Gia Tự
 
-Mã số: CH1702048
+### Mã số: CH1702048
 # Bài tập số 2: Triển khai bài toán nhận diện gương mặt (Face detection)
-# Nội dung demo:
-
 # Nội dung demo:
 
 
@@ -32,20 +30,20 @@ pip install face_recognition
 ### Mô Tả Thuật Toán KNN
 
 ### Installing
-Step 1
+### Step 1
 Make a folder called ./training-images/ inside the openface folder.
 
 mkdir training-images
-Step 2
+### Step 2
 Make a subfolder for each person you want to recognize. For example:
 
 mkdir ./training-images/will-ferrell/
 mkdir ./training-images/chad-smith/
 mkdir ./training-images/jimmy-fallon/
-Step 3
+### Step 3
 Copy all your images of each person into the correct sub-folders. Make sure only one face appears in each image. There's no need to crop the image around the face. OpenFace will do that automatically.
 
-Step 4
+### Step 4
 Run the openface scripts from inside the openface root directory:
 
 First, do pose detection and alignment:
@@ -68,7 +66,7 @@ This will generate a new file called ./generated-embeddings/classifier.pkl. This
 
 At this point, you should have a working face recognizer!
 
-Step 5: Recognize faces!
+### Step 5: Recognize faces!
 Get a new picture with an unknown face. Pass it to the classifier script like this:
 
 ./demos/classifier.py infer ./generated-embeddings/classifier.pkl your_test_image.jpg
@@ -79,7 +77,7 @@ You should get a prediction that looks like this:
 Predict will-ferrell with 0.73 confidence.
 From here it's up to you to adapt the ./demos/classifier.py python script to work however you want.
 
-Important notes:
+### Important notes:
 
 If you get bad results, try adding a few more pictures of each person in Step 3 (especially picures in different poses).
 This script will always make a prediction even if the face isn't one it knows. In a real application, you would look at the confidence score and throw away predictions with a low confidence since they are most likely wrong.
