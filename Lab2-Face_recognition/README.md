@@ -37,9 +37,11 @@ Việc thực hiện việc bầu chọn có trọng số
 ứng dụng:
 1. Prepare a set of images of the known people you want to recognize. Organize the images in a single directory
    with a sub-directory for each known person.
-1. Chuẩn bị bộ dataset là khuôn mặt những người đã biết mà đã thực nghiệm ở bài lab số 1.
+1. Chuẩn bị bộ dataset là khuôn mặt những người đã biết mà đã thực nghiệm ở bài lab số 1.Các khuôn mặt được lưu trữ trong folder con là tên của người đó.
 2. Then, call the 'train' function with the appropriate parameters. Make sure to pass in the 'model_save_path' if you
    want to save the model to disk so you can re-use the model without having to re-train it.
+   
+   Sau đó gọi chức năng tr
 3. Call 'predict' and pass in your trained model to recognize the people in an unknown image.
 
 
