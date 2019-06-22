@@ -17,14 +17,19 @@ ageitgey/face_recognition là một trong những thư viện đáp ứng chức
 
 Bài thực hành này sử dung thuật toán nhận diện khuôn mặt KNN - K-Nearest-Neighbors 
 
-Ví dụ này hữu ích khi bạn muốn nhận ra một nhóm lớn những người đã biết, 24 và đưa ra dự đoán cho một người chưa biết trong thời gian tính toán khả thi.
+Ví dụ này hữu ích khi bạn muốn nhận ra một nhóm lớn những người đã biết và đưa ra dự đoán cho một người chưa biết trong thời gian tính toán khả thi.
 
-### Algorithm Description:
+### Mô Tả thuật toán:
 The knn classifier is first trained on a set of labeled (known) faces and can then predict the person
 in an unknown image by finding the k most similar faces (images with closet face-features under eucledian distance)
 in its training set, and performing a majority vote (possibly weighted) on their label.
 For example, if k=3, and the three closest face images to the given image in the training set are one image of Biden
 and two images of Obama, The result would be 'Obama'.
+
+Trình phân loaị KNN được training từ một bộ dữ liệu những khuôn mặt đã được đánh nhãn và có thể tiên đoán được người trong hình ảnh chưa xác định bằng cách tìm k các khuôn mặt tương tự (dựa trên đặc tính khoảng cách của các chi tiết khuôn mặt như mắt, muổi, miệng) từ bộ training, và thực hiện việc bình chọn với trọng số khả thi nhất với nhãn.
+Ví dụ: 
+nếu k = 3 và ba hình ảnh khuôn mặt gần nhất với hình ảnh đã cho trong tập huấn luyện là một hình ảnh của Biden và hai hình ảnh của Obama, Kết quả sẽ là 'Obama'.
+
 * This implementation uses a weighted vote, such that the votes of closer-neighbors are weighted more heavily.
 Usage:
 1. Prepare a set of images of the known people you want to recognize. Organize the images in a single directory
