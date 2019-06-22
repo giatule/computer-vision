@@ -27,6 +27,7 @@ For example, if k=3, and the three closest face images to the given image in the
 and two images of Obama, The result would be 'Obama'.
 
 Trình phân loaị KNN được training từ một bộ dữ liệu những khuôn mặt đã được đánh nhãn và có thể tiên đoán được người trong hình ảnh chưa xác định bằng cách tìm k các khuôn mặt tương tự (dựa trên đặc tính khoảng cách của các chi tiết khuôn mặt như mắt, muổi, miệng) từ bộ training, và thực hiện việc bình chọn với trọng số khả thi nhất với nhãn.
+
 Ví dụ: 
 nếu k = 3 và ba hình ảnh khuôn mặt gần nhất với hình ảnh đã cho trong tập huấn luyện là một hình ảnh của Biden và hai hình ảnh của Obama, Kết quả sẽ là 'Obama'.
 
@@ -36,6 +37,7 @@ Việc thực hiện việc bầu chọn có trọng số
 ứng dụng:
 1. Prepare a set of images of the known people you want to recognize. Organize the images in a single directory
    with a sub-directory for each known person.
+1. Chuẩn bị bộ dataset là khuôn mặt những người đã biết mà đã thực nghiệm ở bài lab số 1.
 2. Then, call the 'train' function with the appropriate parameters. Make sure to pass in the 'model_save_path' if you
    want to save the model to disk so you can re-use the model without having to re-train it.
 3. Call 'predict' and pass in your trained model to recognize the people in an unknown image.
