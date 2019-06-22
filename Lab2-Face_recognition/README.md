@@ -32,6 +32,8 @@ nếu k = 3 và ba hình ảnh khuôn mặt gần nhất với hình ảnh đã 
 
 * This implementation uses a weighted vote, such that the votes of closer-neighbors are weighted more heavily.
 Usage:
+Việc thực hiện việc bầu chọn có trọng số 
+ứng dụng:
 1. Prepare a set of images of the known people you want to recognize. Organize the images in a single directory
    with a sub-directory for each known person.
 2. Then, call the 'train' function with the appropriate parameters. Make sure to pass in the 'model_save_path' if you
