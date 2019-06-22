@@ -17,11 +17,7 @@ ageitgey/face_recognition là một trong những thư viện đáp ứng chức
 
 Bài thực hành này sử dung thuật toán nhận diện khuôn mặt KNN - K-Nearest-Neighbors 
 
-Ví 
-
-
-This example is useful when you wish to recognize a large set of known people,
-and make a prediction for an unknown person in a feasible computation time.
+Ví dụ này hữu ích khi bạn muốn nhận ra một nhóm lớn những người đã biết, 24 và đưa ra dự đoán cho một người chưa biết trong thời gian tính toán khả thi.
 
 ### Algorithm Description:
 The knn classifier is first trained on a set of labeled (known) faces and can then predict the person
