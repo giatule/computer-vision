@@ -57,3 +57,4 @@ pip install cmake
 pip install face_recognition
 ```
 ### Thực nghiệm: 
+![](https://github.com/giatule/computer-vision/blob/master/readme_img/face_recognition.gif)
