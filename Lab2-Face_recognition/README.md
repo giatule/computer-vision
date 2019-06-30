@@ -55,6 +55,9 @@ pip install cmake
 pip install face_recognition
 ```
 ### Thực nghiệm: 
+LAB 1
+https://github.com/giatule/computer-vision/tree/master/Lab1-Face_detection
+
 # Demo 1: simple_face_detect.py
 
 ```
