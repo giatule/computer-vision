@@ -1,10 +1,4 @@
-# Môn học: Chuyên đề nghiên cứu về Thị giác máy tính (CS2309)
-
-### Giảng viên: TS. Lê Đình Duy
-
-### Học viên: Lê Gia Tự
-
-### Mã số: CH1702048
+# Chuyên đề nghiên cứu về Thị giác máy tính (CS2309)
 # Bài tập số 2: Triển khai bài toán nhận diện gương mặt (Face detection)
 # Nội dung demo:
 
